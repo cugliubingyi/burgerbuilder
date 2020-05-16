@@ -203,4 +203,4 @@ const mapStateToProps = state => {
     };
 };
 
-export default connect(mapStateToProps)(ContactData);
+export default connect(mapStateToProps, null)(ContactData);
